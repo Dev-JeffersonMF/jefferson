@@ -66,6 +66,6 @@ function finalizarPedido() {
   msg += `%0AEntrega: ${entrega}`;
   msg += `%0APagamento: ${pagamento}`;
 
-  const fone = '5531982466044';
+  const fone = '5599999999';
   window.open(`https://wa.me/${fone}?text=${msg}`, '_blank');
 }
